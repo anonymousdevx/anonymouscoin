@@ -1,0 +1,34 @@
+src/*.exe
+src/AnonymousCoin
+src/AnonymousCoind
+src/test_AnonymousCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.AnonymousCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+AnonymousCoin-qt
+AnonymousCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+AnonymousCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
